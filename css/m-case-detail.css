@@ -1,0 +1,74 @@
+/*
+* @Author: Marte
+* @Date:   2018-07-27 09:40:18
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-07-27 16:14:37
+*/
+
+/*首屏展示*/
+.personal-box{ width: 100%; }
+.personal-img{ width: 100%; }
+.personal-img img{ display: block; width: 100%; }
+.personal-text{ padding: 0.4rem 0.26rem 0.26rem 0.26rem; box-sizing: border-box; border: 1px solid #eeeeee; }
+.personal-text h3{ font-size: 0.32rem; color: #333333; line-height: 0.32rem; font-weight: 400; margin-bottom: 0.25rem; }
+.personal-text h4{ font-weight: 400; margin-bottom: 0.31rem; }
+.personal-text h4 span{ font-size: 0.24rem; color: #888888; line-height: 0.24rem; }
+.personal-text h4 i{ display: inline-block; width: 1px; height: 0.23rem; background-color: #888888; vertical-align: -0.04rem; margin-left: 0.07rem; margin-right: 0.07rem; }
+.personal-text p{ font-size: 0.24rem; color: #666666; line-height: 0.31rem; font-weight: 400; }
+.design-box{ height: 1.44rem; padding: 0.22rem 0.26rem 0rem 0.26rem; box-sizing: border-box; }
+.design-img{ width: 1rem; height: 1rem; border-radius: 50%; overflow: hidden; margin-right: 0.23rem; }
+.design-img img{ display: block; width: 100%; height: 100%; }
+.design-text{ }
+.design-text h4{ font-size: 0.3rem; color: #333333; line-height: 0.3rem; margin-top: 0.12rem; margin-bottom: 0.22rem; font-weight: 400; }
+.design-text p{ font-size: 0.26rem; color: #666666; line-height: 0.26rem; }
+.star-box{ padding-top: 0.2rem; }
+.star-box li{ display: block; width: 0.14rem; height: 0.13rem; background: url(../images/m-case-detail/star.png) no-repeat; background-size: contain; margin-right: 0.03rem; }
+.star-box li.active{ background: url(../images/m-case-detail/star_hover.png) no-repeat; background-size: contain; }
+.star-box p{ margin-left: 0.07rem; line-height: 0.26rem; margin-top: -0.06rem; font-weight: 700; }
+.star-box p span{ font-size: 0.26rem; }
+.star-box p .fz20{ font-size: 0.2rem; }
+.enter-btn{ display: block; width: 1.3rem; height: 0.42rem; background-color: #c62422; text-align: center; line-height: 0.42rem; color: #fff; font-size: 0.24rem; margin-top: 0.13rem; }
+.detail-bg{ width: 100%; height: 0.1rem; background-color: #eeeeee; }
+
+/*设计区域展示*/
+.district{ padding: 0.26rem 0.26rem 0rem 0.25rem; box-sizing: border-box; border-bottom: 2px solid #eeeeee; }
+.district-item{ width: 5.89rem; padding-bottom: 0.54rem; }
+.district-img{ width: 5.89rem; height: 3.22rem; }
+.district-img img{ display: block; width: 100%; height: 100%; }
+.district-text{ }
+.district-text h3{ font-size: 0.32rem; color: #333333; line-height: 0.32rem; margin-bottom: 0.18rem; margin-top: 0.32rem; }
+.district-text p{ font-size: 0.24rem; color: #888888; line-height: 0.37rem; }
+
+/*更多细节展示*/
+.minutiae{ padding-top: 0.63rem; border-bottom: 1px solid #eeeeee; }
+.minutiae h2,.completion h2{ font-size: 0.36rem; color: #333333; text-align: center; font-weight: 400; line-height: 0.36rem; position: relative; }
+.minutiae h2 i,.completion h2 i{ display: block; width: 0.54rem; height: 0.08rem; position: absolute; background-color: #333333; left: 50%; margin-left: -0.27rem; top: 0.6rem; }
+.minutiae img{ width: 5.89rem; height: 3.77rem; }
+.minutiae .swiper-container{ text-align: center; margin-top: 0.78rem; height: 7.72rem; }
+.minutiae-text{ }
+.minutiae-text h3{ font-size: 0.36rem; color: #666666; line-height: 0.36rem; margin-bottom: 0.41rem; margin-top: 0.5rem; }
+.minutiae-text p{ width: 3.62rem; margin: 0 auto; font-size: 0.24rem; color: #888888; line-height: 0.38rem; }
+.minutiae .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{ bottom: 0.59rem; }
+.minutiae .swiper-pagination-bullet { width: 0.18rem; height: 0.18rem; display: inline-block; border-radius: 50%; background: #000; opacity: .2; }
+.minutiae .swiper-pagination-bullet-active { opacity: 1; background: #c62422; }
+/*竣工实景展示*/
+.completion{ width: 100%; padding-top: 0.64rem; height: 6.11rem; overflow: hidden; box-sizing: border-box; }
+.completion .swiper-container2{ margin-top: 0.78rem; text-align: center; height: 4.38rem; position: relative; }
+.completion .swiper-container2 img{ width: 5.88rem; height: 3.44rem; }
+
+.completion .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{ position: absolute; bottom: 0.36rem; }
+.completion .swiper-pagination-bullet { width: 0.18rem; height: 0.18rem; display: inline-block; border-radius: 50%; background: #000; opacity: .2; }
+.completion .swiper-pagination-bullet-active { opacity: 1; background: #c62422; }
+
+/*更多案例栏*/
+.more-cases{ padding: 0.42rem 0.25rem 0rem 0.25rem; box-sizing: border-box; }
+.more-cases h4{ width: 100%; text-align: left; font-size: 0.3rem; color: #2a2a2a; line-height: 0.3rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.more-cases-box{ margin-top: 0.43rem; }
+.cases-item{ display: block; width: 2.89rem; margin-bottom: 0.26rem; margin-right: 0.12rem; }
+.cases-item-img{ width: 2.89rem; height: 1.88rem; }
+.cases-item-img img{ display: block; width: 100%; height: 100%; }
+.cases-item-text h4{ font-size: 0.26rem; color: #363636; line-height: 0.26rem; margin-top: 0.29rem; margin-bottom: 0.25rem; }
+.cases-item-text span{ font-size: 0.22rem; color: #666666; line-height: 0.22rem; letter-spacing: 1px; }
+.cases-item-text i{ display: inline-block; width: 1px; height: 0.2rem; background-color: #666666; vertical-align: -0.02rem; margin-left: 0.08rem; margin-right: 0.08rem; }
+.cases-item-text{ padding-bottom: 0.2rem; }
+.more-cases-box{ padding-bottom: 1rem; }
